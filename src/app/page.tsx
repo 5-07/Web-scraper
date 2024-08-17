@@ -1,6 +1,7 @@
 import { Header } from '@/sections/Header';
 import { Hero } from '@/sections/Hero';
 import { CallToAction } from '@/sections/CallToAction';
+import { Footer } from '@/sections/Footer';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
   <Header />
   <Hero />
   <CallToAction />
+  <Footer />
   </>
   );
 };
