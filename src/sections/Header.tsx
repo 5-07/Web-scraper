@@ -16,13 +16,15 @@ export const Header = () => {
     <div className="py-5">
     <div>
       <div className="container">
-      <div className="flex items-center justify-between">
-      <Image src={Logo} alt="Saas Logo" height={40} width={40} />
-      <MenuIcon className="h-5 w-5 md:hidden"/>
-      <nav className="hidden md:flex gap-6 text-black/60 items-center">
-        <a href="#">Developers</a>
-        <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">Get for free</button>
-      </nav>
+      <div className="flex items-center justify-between ">
+        <Image src={Logo} alt="Saas Logo" height={40} width={40}/> 
+        <MenuIcon className="h-5 w-5 md:hidden"/>
+        
+        <nav className="hidden md:flex gap-6 text-black/60 items-center">
+          <a href="#">Developers</a>
+          <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">Get for free</button>
+        <h1 className="inline-flex align-items justify-center text-2xl md:4xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">Spidex</h1>  
+        </nav>
       </div>
       </div>
     </div>
